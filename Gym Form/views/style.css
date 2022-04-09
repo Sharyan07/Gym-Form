@@ -1,0 +1,68 @@
+*{
+   font-family:Arial, Helvetica, sans-serif;
+   margin: 0;
+   padding: 0;
+}
+body::before{
+    opacity: 0.79;
+    content: "";
+    width: 100%;
+    height: 625px;
+    z-index: -1;
+    top: 0px;
+    position:absolute;
+    background: url('/static/gym.jpg') no-repeat center center;
+    background-color: black;
+}
+nav{
+    background-color: #1d1c1c;
+    padding: 7px 12px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+    padding: 3px 10px ;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.container{
+    margin: 35px 0;
+    /* background: url('./gym.jpg') center no-repeat ; */
+}
+.container h2{
+   text-align: center;
+   color: rgb(252, 252, 252);
+}
+input,textarea{
+    display: block;
+    padding: 5px;
+    margin: 10px auto;
+    width: 40%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.btn{
+    margin: 4px auto;
+    display: block;
+    padding: 5px 12px;
+    background: #545677;
+    color: rgb(7, 6, 6);
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.btn:hover{
+    background-color: black;
+    color: whitesmoke;
+}
